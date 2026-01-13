@@ -8,7 +8,9 @@ This project implements a Deep Learning model to classify Brain MRI scans into f
 The model was evaluated on a comprehensive test set of 1,311 images, achieving an overall accuracy of 87%.
 
 Final Classification Report:
+
 <img width="690" height="325" alt="image" src="https://github.com/user-attachments/assets/c04fe3e6-fd23-49dd-8cf0-da3d7588f559" />
+
 
 Key Insights:
 * High Reliability in Healthy Scans: A recall of 0.99 for "No Tumor" ensures that almost all healthy patients are correctly identified.
@@ -41,7 +43,9 @@ Key Insights:
      * Data Augmentation: Random rotations 20 and horizontal flips were used to simulate diverse clinical scenarios.
      * Normalization: All pixel values were rescaled to the $[0, 1]$ range.Validation Strategy: 20% of the training data was used as a validation set to monitor Validation Accuracy and Validation Loss during training.
 
+
 <img width="1628" height="608" alt="image" src="https://github.com/user-attachments/assets/5dc69823-6833-4b34-953f-fde806d2f3ca" />
+
 
 ### Dataset
 The model was trained on the Brain Tumor MRI Dataset available on Kaggle. It includes:
